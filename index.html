@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logotipo"> 
+                Ayne Dias Fotografia
+            </div>    
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="slider">
+        <div class="slider-container">
+            <!-- Slides -->
+            <div class="slider-box ativo">
+                <img src="images/nay-leo-1.jpg" alt="Casais fotográficos">
+                <div class="texto-slider">
+                    <h2>Reacender a conexão.</h2>
+                    <p>O amor não para no "sim" do altar...</p>
+                </div>
+            </div>
+            
+            <div class="slider-box">
+                <img src="images/marcley-1.jpg" alt="Casais fotográficos">
+                <div class="texto-slider">
+                    <h2>Reacender a conexão.</h2>
+                    <p>O amor não para no "sim" do altar...</p>
+                </div>
+            </div>
+            
+            <!-- Adicione os outros slides seguindo o mesmo padrão -->
+        </div>
+        
+        <!-- Controles -->
+        <button id="anterior"><i class="bi bi-caret-left-square-fill"></i></button>
+        <button id="proxima"><i class="bi bi-caret-right-square-fill"></i></button>
+        
+        <!-- Indicadores -->
+        <div class="btn-nav-box">
+            <div class="btn-nav ativo"></div>
+            <div class="btn-nav"></div>
+            <!-- Adicione um para cada slide -->
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
